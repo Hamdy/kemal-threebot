@@ -1,0 +1,21 @@
+name: threebot
+version: 0.1.0
+
+authors:
+  - your-name-here <your-email-here>
+
+dependencies:
+  spec-kemal:
+    github: kemalcr/spec-kemal
+  kemal:
+    git: https://github.com/kemalcr/kemal.git
+    commit: a8c0f09b858162bd13c96663febef5527b322a32  
+  sodium:
+    git: git@github.com:didactic-drunk/sodium.cr.git
+    commit: c99862505620a3ec135bbe12a2ff63f3c0def3e4
+  kemal-session-bcdb:
+    github: hamdy/kemal-session-bcdb
+
+crystal: 0.35.1
+
+license: MIT
